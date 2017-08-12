@@ -9,14 +9,98 @@ RESPONSIVE STYLE
 xs layout 
 ##############################################################################################*/
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) and (orientation: portrait) {
+    body {
+        background-image: url("../images/bg-mobile.jpg");
+    }
+    #main-container .logo-container .logo {
+        max-width: 250px;
+    }
+    #main-container .hpd-container {
+        margin-top: 26%;
+    }
+    #main-container .hpd-container .hpd-img {
+        max-width: 130px;
+    }
+    #main-container .cds-container {
+        margin-top: 26%;
+    }
+    #main-container .cds-container .cds-img {
+        max-width: 130px;
+    }
+    #main-container .footer-container .footer-img {
+        max-width: 250px;
+    }
+    #main-container .footer-container {
+        margin-top: 112%;
+        top: 0px;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    #main-container .logo-container {
+        margin-top: 12%;
+        margin-left: 44%;
+    }
+    #main-container .logo-container .logo {
+        max-width: 250px;
+    }
+    #main-container .hpd-container .hpd-img {
+        max-width: 130px;
+    }
+    #main-container .cds-container .cds-img {
+        max-width: 130px;
+    }
+}
 
 
 /* ########################################################################################### 
 sm layout 
 ##############################################################################################*/
 
-@media (min-width: 769px) and (max-width: 992px) {}
+@media (min-width: 769px) and (max-width: 992px) and (orientation: portrait) {
+    body {
+        background-image: url("../images/bg-mobile.jpg");
+    }
+    #main-container .logo-container .logo {
+        max-width: 250px;
+    }
+    #main-container .hpd-container {
+        margin-top: 26%;
+    }
+    #main-container .hpd-container .hpd-img {
+        max-width: 130px;
+    }
+    #main-container .cds-container {
+        margin-top: 26%;
+    }
+    #main-container .cds-container .cds-img {
+        max-width: 130px;
+    }
+    #main-container .footer-container .footer-img {
+        max-width: 250px;
+    }
+    #main-container .footer-container {
+        margin-top: 112%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
+    #main-container .logo-container {
+        margin-top: 12%;
+        margin-left: 44%;
+    }
+    #main-container .logo-container .logo {
+        max-width: 250px;
+        top: 0px;
+    }
+    #main-container .hpd-container .hpd-img {
+        max-width: 130px;
+    }
+    #main-container .cds-container .cds-img {
+        max-width: 130px;
+    }
+}
 
 
 /* ########################################################################################### 
