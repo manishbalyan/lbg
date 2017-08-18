@@ -10,7 +10,7 @@ xs layout
 ##############################################################################################*/
 
 @media (max-width: 768px) and (orientation: portrait) {
-    body {
+    #main-container {
         background-image: url("../images/bg-mobile.jpg");
     }
     #main-container .logo-container .logo {
@@ -34,6 +34,41 @@ xs layout
     #main-container .footer-container {
         margin-top: 112%;
         top: 0px;
+    }
+    .mainnav {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.54);
+        z-index: 10000;
+        height: 100%;
+        position: fixed;
+        top: 88px;
+        left: 0;
+    }
+    .mainnav li {
+        width: 100%;
+    }
+    .mainnav li a {
+        text-align: center;
+        margin: 4px 0px 0 0px;
+        padding: 10px 0 10px 0;
+    }
+    .topText {
+        padding-right: 0px;
+        margin-top: 100px;
+    }
+    .topText h1 {
+        font-size: 15px;
+    }
+    .topText p {
+        font-size: 13px;
+        padding-right: 46px;
+    }
+    #principles .principles-heading {
+        font-size: 16px;
+    }
+    #footer2 .footer2-para {
+        font-size: 12px;
+        text-align: center;
     }
 }
 
@@ -59,7 +94,7 @@ sm layout
 ##############################################################################################*/
 
 @media (min-width: 769px) and (max-width: 992px) and (orientation: portrait) {
-    body {
+    #main-container {
         background-image: url("../images/bg-mobile.jpg");
     }
     #main-container .logo-container .logo {
@@ -82,6 +117,41 @@ sm layout
     }
     #main-container .footer-container {
         margin-top: 112%;
+    }
+    .mainnav {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.54);
+        z-index: 10000;
+        height: 100%;
+        position: fixed;
+        top: 88px;
+        left: 0;
+    }
+    .mainnav li {
+        width: 100%;
+    }
+    .mainnav li a {
+        text-align: center;
+        margin: 4px 0px 0 0px;
+        padding: 10px 0 10px 0;
+    }
+    .topText {
+        padding-right: 60px;
+        margin-top: 100px;
+    }
+    .topText h1 {
+        font-size: 15px;
+    }
+    .topText p {
+        font-size: 13px;
+        padding-right: 46px;
+    }
+    #principles .principles-heading {
+        font-size: 16px;
+    }
+    #footer2 .footer2-para {
+        font-size: 12px;
+        text-align: center;
     }
 }
 
