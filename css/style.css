@@ -289,14 +289,114 @@ html, body {
     font-size: 20px;
     text-align: center;
     padding: 30px 0px;
-    color: wheat;
+    color: white;
     font-weight: 800;
+}
+
+#sectors1 {}
+
+#sectors1 .sector1-common {
+    padding-bottom: 10px;
+    color: #a29898;
+    font-size: 22px;
+}
+
+#sectors1 .sector1-left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#sectors1 .sector1-right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#sectors1 .sectors-list .rbulb-img {
+    position: absolute;
+    margin-top: -11px;
+    margin-left: -30px;
+}
+
+#sectors1 .sectors-list .lbulb-img {
+    position: absolute;
+    margin-top: 40px;
+}
+
+#sectors1 .sectors-list .sector1 {
+    margin: 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector2 {
+    margin: 20px 0px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector2 {
+    margin-left: -26px;
+}
+
+#sectors1 .sectors-list .sector3 {
+    margin: 20px 0px 20px 40px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector4 {
+    margin: 20px 40px 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector4 {
+    margin-left: -68px;
+}
+
+#sectors1 .sectors-list .sector5 {
+    margin: 20px 0px 20px 80px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector6 {
+    margin: 20px 80px 20px 0px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector6 {
+    margin-left: -106px;
+}
+
+#sectors1 .sectors-list .sector7 {
+    margin: 20px 0px 20px 120px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector8 {
+    margin: 20px 120px 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector8 {
+    margin-left: -146px;
+}
+
+#sectors1 .sectors-list .sector9 {
+    margin: 20px 0px 20px 160px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector10 {
+    margin: 20px 0px 20px 50px;
+    border-bottom: 2px solid #a29898;
+    width: 40%;
+}
+
+#sectors1 .sectors-list .sector10 h3 {
+    text-align: center;
 }
 
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-                                            6. Hpd
+                                            6. Leap
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
