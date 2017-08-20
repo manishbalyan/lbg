@@ -70,6 +70,39 @@ xs layout
         font-size: 12px;
         text-align: center;
     }
+    #leapTop {
+        height: 90vh;
+    }
+    #leapTop .leapTopHeading h1 {
+        font-size: 20px;
+        margin-top: 50%;
+    }
+    #overview .overview-subHeading {
+        font-size: 22px;
+        margin-top: 40px;
+        letter-spacing: .8px;
+    }
+    #main-elements .elements-content {
+        margin: 10px 0px 0px 15px;
+    }
+    #main-elements .elements-content-heading {
+        font-size: 30px;
+    }
+    #main-elements .elements-content-list {
+        padding: 20px;
+    }
+    #main-elements .elements-content-list li {
+        font-size: 18px;
+    }
+    #main-elements .elements-content-subHeading {
+        color: #aba59a;
+        font-size: 18px;
+        letter-spacing: .6px;
+        line-height: 26px;
+    }
+    #main-elements .elements-content-dowloadHeading {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -153,6 +186,40 @@ sm layout
         font-size: 12px;
         text-align: center;
     }
+    #leapTop {
+        height: 90vh;
+    }
+    #leapTop .leapTopHeading h1 {
+        font-size: 20px;
+        margin-top: 50%;
+    }
+    #overview .overview-subHeading {
+        font-size: 22px;
+        margin-top: 40px;
+        letter-spacing: .8px;
+    }
+    #main-elements .elements-content {
+        margin: 10px 0px 0px 15px;
+    }
+    #main-elements .elements-content-heading {
+        font-size: 30px;
+    }
+    #main-elements .elements-content-list {
+        padding: 20px;
+    }
+    #main-elements .elements-content-list li {
+        font-size: 18px;
+    }
+    #main-elements .elements-content-subHeading {
+        color: #aba59a;
+        font-size: 18px;
+        letter-spacing: .6px;
+        line-height: 26px;
+    }
+    #main-elements .elements-content-dowloadHeading {
+        font-size: 18px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
