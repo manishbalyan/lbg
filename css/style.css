@@ -21,9 +21,11 @@ CONTENTS :
             6.1. Leap Top   
             6.2. Leap Overview
             6.3. Leap Objective 
-
-
-
+            6.4. Leap Main Elements
+        7.  Tlp
+            7.1.  Tlp Top  
+            7.2.  Tlp Overview
+            7.3.  Tlp Features
 
 
 ==============================================================================================
@@ -128,6 +130,28 @@ html, body {
     margin: 18px 0;
     height: 50px;
     width: 200px
+}
+
+#hpdList li {
+    width: 100%;
+}
+
+#hpdList li a {
+    color: black;
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
+}
+
+#schoolList li {
+    width: 100%;
+}
+
+#schoolList li a {
+    color: black;
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
 }
 
 .mainnav li {
@@ -265,14 +289,114 @@ html, body {
     font-size: 20px;
     text-align: center;
     padding: 30px 0px;
-    color: wheat;
+    color: white;
     font-weight: 800;
+}
+
+#sectors1 {}
+
+#sectors1 .sector1-common {
+    padding-bottom: 10px;
+    color: #a29898;
+    font-size: 22px;
+}
+
+#sectors1 .sector1-left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#sectors1 .sector1-right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#sectors1 .sectors-list .rbulb-img {
+    position: absolute;
+    margin-top: -11px;
+    margin-left: -30px;
+}
+
+#sectors1 .sectors-list .lbulb-img {
+    position: absolute;
+    margin-top: 40px;
+}
+
+#sectors1 .sectors-list .sector1 {
+    margin: 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector2 {
+    margin: 20px 0px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector2 {
+    margin-left: -26px;
+}
+
+#sectors1 .sectors-list .sector3 {
+    margin: 20px 0px 20px 40px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector4 {
+    margin: 20px 40px 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector4 {
+    margin-left: -68px;
+}
+
+#sectors1 .sectors-list .sector5 {
+    margin: 20px 0px 20px 80px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector6 {
+    margin: 20px 80px 20px 0px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector6 {
+    margin-left: -106px;
+}
+
+#sectors1 .sectors-list .sector7 {
+    margin: 20px 0px 20px 120px;
+    border-bottom: 1px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector8 {
+    margin: 20px 120px 20px 0px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list #sector8 {
+    margin-left: -146px;
+}
+
+#sectors1 .sectors-list .sector9 {
+    margin: 20px 0px 20px 160px;
+    border-bottom: 2px solid #a29898;
+}
+
+#sectors1 .sectors-list .sector10 {
+    margin: 20px 0px 20px 50px;
+    border-bottom: 2px solid #a29898;
+    width: 40%;
+}
+
+#sectors1 .sectors-list .sector10 h3 {
+    text-align: center;
 }
 
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-                                            6. Hpd
+                                            6. Leap
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
@@ -351,7 +475,7 @@ html, body {
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-                                            6.4. Main Elements 
+                                            6.4. Leap Main Elements 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
@@ -388,6 +512,146 @@ html, body {
 }
 
 #main-elements .elements-content-dowloadHeading {
+    text-align: center;
+    font-size: 20px;
+    color: #aba59a;
+    margin-top: 10px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7. Tlp
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#main-tlpContainer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7.1. Tlp Top 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#tlpTop {
+    background-image: url("../images/TLP-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140vh;
+}
+
+#tlpTop .tlpTopHeading h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 42%;
+    text-align: center;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7.2. TLP Overview  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#tlpOverview {
+    margin-top: 20px;
+}
+
+#tlpOverview .tlpOverview-heading {
+    margin-bottom: 40px;
+}
+
+#tlpOverview .tlpOverview-heading .mainHeading {
+    font-size: 34px;
+    color: #aba59a;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#tlpOverview .tlpOverview-para {
+    margin-top: 110px;
+}
+
+#tlpOverview .tlpOverview-para p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #aba59a;
+    letter-spacing: .6px;
+    margin: 10px 0px;
+}
+
+#tlpOverview .tlpOverview-mainTheme {
+    margin-top: 60px;
+}
+
+#tlpOverview .tlpOverview-mainTheme .subHeading {
+    color: #aba59a;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#tlpOverview .tlpOverview-mainTheme .mainTheme-list {
+    list-style: none;
+    padding: 25px 50px 0px 75px;
+}
+
+#tlpOverview .tlpOverview-mainTheme .mainTheme-list li {
+    color: #aba59a;
+    padding-bottom: 6px;
+    letter-spacing: .6px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            6.3. Tlp Features
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#tlpFeatures {
+    margin: 25px 0px 6px 0px;
+}
+
+#tlpFeatures .features-content {
+    margin: 10px 0px 0px 50px;
+}
+
+#tlpFeatures .features-content .content-heading {
+    font-size: 34px;
+    letter-spacing: .8px;
+    margin-bottom: 12px;
+    color: #aba59a;
+}
+
+#tlpFeatures .features-content .content-list {
+    padding: 20px 0px 20px 2px;
+}
+
+#tlpFeatures .features-content .content-list li {
+    font-size: 20px;
+    color: #aba59a;
+    margin-bottom: 8px;
+    letter-spacing: .6px;
+    list-style: none;
+}
+
+#tlpFeatures .features-content .content-subHeading {
+    color: #aba59a;
+    font-size: 22px;
+    padding: 0px 0px 10px 5px;
+}
+
+#tlpFeatures .features-content .content-dowload {
     text-align: center;
     font-size: 20px;
     color: #aba59a;

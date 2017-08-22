@@ -103,6 +103,9 @@ xs layout
     #main-elements .elements-content-dowloadHeading {
         font-size: 18px;
     }
+    #hpdTop {
+        height: 90vh;
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -218,6 +221,9 @@ sm layout
     }
     #main-elements .elements-content-dowloadHeading {
         font-size: 18px;
+    }
+    #hpdTop {
+        height: 90vh;
     }
 
 }
