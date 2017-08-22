@@ -26,6 +26,10 @@ CONTENTS :
             7.1.  Tlp Top  
             7.2.  Tlp Overview
             7.3.  Tlp Features
+        8.  Contact Us
+            8.1.  Contact Top  
+            8.2.  Contact Info
+            8.3.  Contact Map  
 
 
 ==============================================================================================
@@ -614,7 +618,7 @@ html, body {
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-                                            6.3. Tlp Features
+                                            7.3. Tlp Features
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
@@ -656,4 +660,140 @@ html, body {
     font-size: 20px;
     color: #aba59a;
     margin-top: 10px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7. Contact Us
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#main-contactContainer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7.1. Contact Top 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#contactTop {
+    background-image: url("../images/contact-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 140vh;
+}
+
+#contactTop .contactTopHeading {
+    margin-top: 150px;
+    /* margin-left: 50px; */
+    padding: 20px;
+}
+
+#contactTop .contactTopHeading h1 {
+    font-size: 48px;
+    color: rgba(88, 77, 77, 0.45);
+}
+
+#contactTop .contactTopHeading span {
+    font-size: 28px;
+    color: rgba(88, 77, 77, 0.45);
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            8.2. Contact Info 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#contactInfo {
+    margin-bottom: 30px;
+}
+
+#contactInfo .mainHeading {
+    font-size: 34px;
+    color: #aba59a;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#contactInfo .contact-detail {
+    margin-top: 40px;
+}
+
+#contactInfo .contact-detail .info {
+    text-align: center;
+}
+
+#contactInfo .contact-detail .info .email {
+    margin-bottom: 20px;
+}
+
+#contactInfo .contact-detail .info .email .heading {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 45px;
+}
+
+#contactInfo .contact-detail .info .email .value {
+    letter-spacing: .6px;
+}
+
+#contactInfo .contact-detail .info .address {
+    margin-bottom: 20px;
+}
+
+#contactInfo .contact-detail .info .address .heading {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 45px;
+}
+
+#contactInfo .contact-detail .info .address .value {
+    line-height: 24px;
+    letter-spacing: .6px;
+}
+
+#contactInfo .contact-detail .info .phone {
+    
+}
+
+#contactInfo .contact-detail .info .phone .heading {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 45px;
+}
+
+#contactInfo .contact-detail .info .phone .value {
+    line-height: 24px;
+    letter-spacing: .6px;
+}
+
+#contactInfo .contact-detail .contact-form {}
+
+#contactInfo .contact-detail .contact-form label {
+    font-weight: 600
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            8.3. Contact Map 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#map {
+    height: 400px;
+    width: 100%;
 }
