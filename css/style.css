@@ -203,6 +203,30 @@ html, body {
     margin: 0 auto;
 }
 
+#footer .social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .social .connect {
+    color: #fff;
+    font-size: 20px;
+    display: inherit
+}
+
+#footer .social span{
+    margin-right: 5px;
+}
+
+#footer .social span a{
+    cursor: pointer;
+}
+
+#footer .social .social-icons {
+    display: inherit;
+    width: 25px;
+}
+
 #footer2 {
     background-color: #a8acaf;
     padding: 30px 0px;
@@ -878,11 +902,11 @@ html, body {
     margin-top: 20px;
 }
 
-#ldi-overview .ldi-list img{
+#ldi-overview .ldi-list img {
     width: 50px;
 }
 
-#ldi-overview .ldi-list .ldi-list-para{
+#ldi-overview .ldi-list .ldi-list-para {
     font-size: 18px;
     line-height: 20px;
     color: #aba59a;
