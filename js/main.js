@@ -9,6 +9,14 @@
   });
 
 
+  $(document).ready(function () {
+    $('.dropdown-submenu a.dropdown_lnk').on("click ", function (e) {
+      $(this).next('ul').toggle();
+      e.stopPropagation();
+      e.preventDefault();
+    });
+  });
+
   /*----------------------------------|| On Scroll Method ||----------------------------------------------*/
 
   $(window).scroll(function () {
