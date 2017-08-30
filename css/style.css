@@ -197,6 +197,19 @@ html, body {
     margin-top: -6px;
 }
 
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000;
+    margin-top: 5px;
+}
+
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -275,7 +288,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
-    height: 140vh;
+    height: 120vh;
 }
 
 .topText {
@@ -460,7 +473,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 140vh;
+    height: 120vh;
 }
 
 #leapTop .leapTopHeading h1 {
@@ -585,7 +598,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 140vh;
+    height: 120vh;
 }
 
 #tlpTop .tlpTopHeading h1 {
@@ -725,7 +738,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
-    height: 140vh;
+    height: 120vh;
 }
 
 #contactTop .contactTopHeading {
