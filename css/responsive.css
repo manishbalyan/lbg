@@ -106,6 +106,32 @@ xs layout
     #hpdTop {
         height: 90vh;
     }
+    .dropdown-submenu {
+        position: relative;
+    }
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+    }
+    .dropdown-submenu>a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #000;
+        margin-top: 5px;
+    }
+    .navigation {
+        background-color: #101010;
+        opacity: .7;
+        z-index: 10000;
+        position: relative;
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -225,7 +251,32 @@ sm layout
     #hpdTop {
         height: 90vh;
     }
-
+    .dropdown-submenu {
+        position: relative;
+    }
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+    }
+    .dropdown-submenu>a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #000;
+        margin-top: 5px;
+    }
+    .navigation {
+        background-color: #101010;
+        opacity: .7;
+        z-index: 10000;
+        position: relative;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
