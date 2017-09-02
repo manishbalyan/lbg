@@ -31,7 +31,12 @@ CONTENTS :
             8.2.  Contact Info
             8.3.  Contact Map  
         9.  Ldi
-            9.1.  Ldi Top    
+            9.1.  Ldi Top  
+            9.2.  Ldi Overview  
+
+        10. Ilp
+            10.1  Ilp Top  
+            10.2  Ilp Overview  
 
 
 ==============================================================================================
@@ -872,10 +877,10 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
 }
 
-#ldiTop .leapTopHeading h1 {
+#ldiTop .ldiTopHeading h1 {
     color: white;
     font-size: 40px;
     font-weight: 900;
@@ -886,18 +891,23 @@ html, body {
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-                                            6.2. Ldi Overview  
+                                            9.2. Ldi Overview  
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
 #ldi-overview {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* background-image: url("../images/hwh.png"); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
+    background-image: url("../images/hand_heart.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     /* background-position: center; */
     /* height: 120vh; */
+    min-height: 1085px;
+}
+
+#ldi-overview .content{
+    margin-top: 50px;
 }
 
 #ldi-overview .mainHeading {
@@ -922,6 +932,14 @@ html, body {
     margin: 10px 0px;
 }
 
+#ldi-overview .ldi{
+    margin-top: 90px;
+}
+
+#ldi-overview .ldi .list-content{
+    margin-top: 20px;
+}
+
 #ldi-overview .ldi-list {
     margin-top: 20px;
 }
@@ -935,6 +953,117 @@ html, body {
     line-height: 20px;
     color: #aba59a;
     letter-spacing: .6px;
-    margin: 24px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            6. Ilp
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#main-ilpContainer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            9.1. Ilp Top 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#ilpTop {
+    background-image: url("../images/bg-ilp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+}
+
+#ilpTop .ilpTopHeading h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 42%;
+    text-align: center;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            9.2. Ilp Overview  
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#ilp-overview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ilp-overview .content{
+    margin-top: 50px;
+}
+
+#ilp-overview .ilp-icon{
+    margin-top: 90px;
+}
+
+#ilp-overview .mainHeading {
+    font-size: 34px;
+    color: #aba59a;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#ilp-overview .subHeading {
+    font-size: 24px;
+    color: #aba59a;
+    margin-top: 50px;
+    letter-spacing: .7px;
+}
+
+#ilp-overview .overview-para {
+    font-size: 14px;
+    line-height: 22px;
+    color: #aba59a;
+    letter-spacing: .6px;
+    margin: 10px 0px;
+}
+
+#ilp-overview .workshop{
+    margin-top: 50px;
+    font-size: 22px;
+    color: #aba59a;
+    font-weight: 600;
+}
+
+#ilp-overview .ilp{
+    margin-top: 90px;
+}
+
+#ilp-overview .ilp .list-content{
+    margin-top: 20px;
+}
+
+#ilp-overview .ilp-list {
+    margin-top: 20px;
+}
+
+#ilp-overview .ilp-list img {
+    width: 50px;
+}
+
+#ilp-overview .ilp-list .ilp-list-para {
+    font-size: 18px;
+    line-height: 20px;
+    color: #aba59a;
+    letter-spacing: .6px;
+    margin: 20px 0px 0px 0px;
 }
 
