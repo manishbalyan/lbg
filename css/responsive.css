@@ -132,6 +132,11 @@ xs layout
         z-index: 10000;
         position: relative;
     }
+    #contactInfo .mainHeading {
+        font-size: 24px;
+        text-align: center;
+        line-height: 33px;
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -276,6 +281,11 @@ sm layout
         opacity: .7;
         z-index: 10000;
         position: relative;
+    }
+    #contactInfo .mainHeading {
+        font-size: 24px;
+        text-align: center;
+        line-height: 33px;
     }
 }
 
