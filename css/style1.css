@@ -45,30 +45,29 @@ CONTENTS :
 ***********************************************************************************************/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
-    height: 100%;
+  height: 100%;
 }
 
 #main-container {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 #loader {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    background-color: #5eb6de;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #5eb6de;
 }
-
 
 
 /**********************************************************************************************
@@ -78,62 +77,143 @@ html, body {
 ***********************************************************************************************/
 
 .navigation {
-    background-color: #951e1e;
-    opacity: .7;
+  background-color: #101010;
+  opacity: .7;
+  z-index: 10000;
+  position: relative;
 }
 
 .mainlogo {
-    margin: 18px 0;
-    height: 50px;
-    width: 200px
+  margin: 22px 0;
+  height: 42px;
+  width: 200px
 }
 
 #hpdList li {
-    width: 100%;
+  width: 100%;
 }
 
 #hpdList li a {
-    color: black;
-    text-align: center;
-    margin: 4px;
-    padding: 10px;
+  color: black;
+  text-align: center;
+  margin: 4px;
+  padding: 10px;
 }
 
 #schoolList li {
-    width: 100%;
+  width: 100%;
 }
 
 #schoolList li a {
-    color: black;
-    text-align: center;
-    margin: 4px;
-    padding: 10px;
+  color: black;
+  text-align: center;
+  margin: 4px;
+  padding: 10px;
 }
 
 .mainnav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .mainnav li a {
-    color: white;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin: 22px 10px 0 10px;
-    font-weight: 800;
-    display: block;
-    padding: 20px 0 32px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    transition: all 0.8s ease;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 22px 10px 0 10px;
+  font-weight: 800;
+  display: block;
+  padding: 20px 0 32px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  transition: all 0.8s ease;
 }
 
 .mainnav li a:hover {
-    border-bottom: 1px solid #fff;
-    text-decoration: none;
-    color: #fff;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .icon-bar {
-    background-color: #fff !important;
+  background-color: #fff !important;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
+  margin-top: 5px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            4. Footer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#footer {
+  background-color: #31363a;
+  padding: 50px 0px;
+}
+
+#footer .footer-logo {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#footer .social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#footer .social .connect {
+  color: #fff;
+  font-size: 20px;
+  display: inherit
+}
+
+#footer .social span {
+  margin-right: 5px;
+}
+
+#footer .social span a {
+  cursor: pointer;
+}
+
+#footer .social .social-icons {
+  display: inherit;
+  width: 25px;
+}
+
+#footer2 {
+  background-color: #a8acaf;
+  padding: 30px 0px;
+}
+
+#footer2 .footer2-para {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.icon-bar {
+  background-color: #fff !important;
 }
 
 @font-face {
@@ -142,7 +222,6 @@ html, body {
   font-style: normal;
   font-weight: 400;
 }
-
 
 @font-face {
   font-family: "Proxima Nova";
@@ -172,15 +251,15 @@ p {
 }
 
 .navbar-default {
-    background-color: white;
-    border-color: transparent;
-  margin-bottom: 0px;   
+  background-color: white;
+  border-color: transparent;
+  margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: gray;
   font-size: 15px;
-  font-family: "fontProxima Nova88279";  
+  font-family: "fontProxima Nova88279";
 }
 
 .navbar-default .navbar-brand {
@@ -189,13 +268,13 @@ p {
   margin-top: 15px;
 }
 
-.header{
+.header {
   display: table;
   margin: 0 auto;
 }
 
 .dropdown-menu > li > a {
-  color: gray ;
+  color: gray;
   font-family: PMNCaeciliaW01-45Light;
 }
 
@@ -209,7 +288,7 @@ p {
   right: 47%;
   text-align: center;
   left: auto;
-  top: 67%;  
+  top: 67%;
 }
 
 #myCarousel .slider-button2 {
@@ -224,7 +303,9 @@ p {
   border: none;
 }
 
+
 /* For creating vertical line */
+
 .vertical-line {
   border-right: 1px solid #ddd;
 }
@@ -234,11 +315,11 @@ a:hover {
 }
 
 .services-heading {
-  color:gray;
+  color: gray;
 }
 
 .footerIcon {
-    font-size:36px;
+  font-size: 36px;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -247,7 +328,7 @@ a:hover {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color:#B2C049;
+  background-color: #B2C049;
 }
 
 .text-muted {
@@ -267,13 +348,13 @@ a:hover {
 }
 
 .counselling-img2 {
-  width:700px;
-  height:300px; 
+  width: 700px;
+  height: 300px;
 }
 
 .counselling-img3 {
-  width:250px;
-  height:250px; 
+  width: 250px;
+  height: 250px;
   margin-left: 20px;
   margin-top: -30px;
 }
@@ -284,12 +365,12 @@ a:hover {
 
 .counselling-icon {
   font-size: 40px;
-  color:#428bca;
-  margin-right:20px;
+  color: #428bca;
+  margin-right: 20px;
 }
 
 .counselling-icon2 {
-  margin-right:15px;
+  margin-right: 15px;
 }
 
 .counselling-margin {
@@ -301,205 +382,194 @@ a:hover {
 }
 
 .photography-glyphicon-left {
-  margin-left:280px;
-  color:black;
-  font-size:25px;
+  margin-left: 280px;
+  color: black;
+  font-size: 25px;
 }
 
 .photography-glyphicon-right {
-  color:black;
-  font-size:25px;
+  color: black;
+  font-size: 25px;
   margin-left: 500px;
 }
 
-
-@media screen and (max-width: 768px){
-  h2{
+@media screen and (max-width: 768px) {
+  h2 {
     font-size: 24px;
   }
-  p{
+  p {
     font-size: 12px;
   }
-  .btn{
+  .btn {
     padding: 4px 8px;
     margin-top: -6px;
   }
-  .btn-lg{
+  .btn-lg {
     padding: 4px 8px;
     margin-top: -12px;
   }
-  .footerIcon{
-    font-size:28px;
+  .footerIcon {
+    font-size: 28px;
     padding-left: 5px;
   }
-  .about{
+  .about {
     padding-top: 10px;
   }
-  .img-about{
+  .img-about {
     min-height: 220px;
     min-width: 160px;
   }
-  .client-grid{
+  .client-grid {
     height: 115px;
     width: 115px;
     padding-top: 45px;
     margin-right: 18px;
   }
-  .client-image{
+  .client-image {
     min-height: 35px;
     min-width: 80px;
-    margin-left: 1px;  
+    margin-left: 1px;
   }
-  .lead{
+  .lead {
     font-size: 16px;
   }
-  .counselling-icon{
+  .counselling-icon {
     font-size: 35px;
-    margin-right:15px;
+    margin-right: 15px;
   }
-  .counselling-img{
+  .counselling-img {
     min-height: 260px;
     min-width: 230px;
   }
-  .counselling-img2{
-    max-width:400px;
-    max-height:175px; 
+  .counselling-img2 {
+    max-width: 400px;
+    max-height: 175px;
     margin-right: 5px;
   }
-  .counselling-img3{
-    width:200px;
-    height:200px; 
+  .counselling-img3 {
+    width: 200px;
+    height: 200px;
     margin-left: 0px;
     margin-top: -30px;
   }
-  .counselling-para{
+  .counselling-para {
     margin-top: 20px;
   }
-  .counselling-margin{
+  .counselling-margin {
     margin-top: 30px;
   }
-  .photography-glyphicon-left{
-    margin-left:200px;
+  .photography-glyphicon-left {
+    margin-left: 200px;
   }
-  .photography-glyphicon-right{
+  .photography-glyphicon-right {
     margin-left: 300px;
   }
-
 }
 
-@media screen and (max-width: 480px){
-  h2{
+@media screen and (max-width: 480px) {
+  h2 {
     font-size: 20px;
   }
-  .btn{
+  .btn {
     font-size: 12px;
     padding: 2px;
     margin-top: -20px;
   }
-  .btn-lg{
+  .btn-lg {
     font-size: 14px;
     padding: 1px 2px;
     margin-top: -28px;
   }
-  .vertical-line{
+  .vertical-line {
     border-right: none;
   }
-  .remove-hr{
-    display:none;
+  .remove-hr {
+    display: none;
   }
-  .footerIcon{
+  .footerIcon {
     margin-top: -15px;
   }
-  .margin-for-xxs{
+  .margin-for-xxs {
     margin-left: 1px;
   }
- .img-about{
+  .img-about {
     max-height: 150px;
     max-width: 100px;
     margin-left: 25%;
   }
-  .client-grid{
+  .client-grid {
     min-height: 90px;
     min-width: 90px;
     margin-left: 20px;
     margin-top: 20px;
   }
-  .client-image{
+  .client-image {
     min-height: 30px;
     min-width: 80px;
-    margin-left: -10px;  
+    margin-left: -10px;
   }
-  .counselling-img{
+  .counselling-img {
     max-height: 190px;
     max-width: 200px;
     margin-left: 50px;
   }
-  .counselling-img3{
+  .counselling-img3 {
     margin-left: 80px;
   }
-  .counselling-margin{
+  .counselling-margin {
     margin-top: 20px;
   }
-  .counselling-para{
+  .counselling-para {
     margin-top: 0px;
     margin-left: 12px;
   }
-  .content-img{
-    max-height:250px;
-    max-width:250px;
+  .content-img {
+    max-height: 250px;
+    max-width: 250px;
     margin-left: 50px;
   }
-  .photography-glyphicon-left{
-    margin-left:100px;
+  .photography-glyphicon-left {
+    margin-left: 100px;
   }
-  .photography-glyphicon-right{
+  .photography-glyphicon-right {
     margin-left: 150px;
   }
-  .col-xs-offset-2{
+  .col-xs-offset-2 {
     margin-left: 1.33333333%;
   }
-/* Creating custom grid for a breakpoint at 480px width */
+  /* Creating custom grid for a breakpoint at 480px width */
   div.col-xxs-12 {
     width: 100%;
   }
-
 }
 
-
-@media screen and (max-width: 320px){
-  .client-grid{
+@media screen and (max-width: 320px) {
+  .client-grid {
     margin-left: 1px;
-    min-width: 67px;px;
+    min-width: 67px;
   }
-  .client-image{
+  .client-image {
     min-height: 30px;
     min-width: 60px;
-    margin-left: -10px;  
+    margin-left: -10px;
   }
-  .counselling-img2{
+  .counselling-img2 {
     margin-right: 0px;
     max-width: 280px;
     max-height: 150px;
   }
-  .counselling-img3{
+  .counselling-img3 {
     margin-left: 0px;
   }
-  .content-img{
-    max-height:200px;
-    max-width:200px;
+  .content-img {
+    max-height: 200px;
+    max-width: 200px;
     margin-left: 0px;
   }
-  .photography-glyphicon-left{
-    margin-left:60px;
+  .photography-glyphicon-left {
+    margin-left: 60px;
   }
-  .photography-glyphicon-right{
+  .photography-glyphicon-right {
     margin-left: 100px;
   }
-
 }
-
-
-
-
-
-
