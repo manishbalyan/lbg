@@ -119,10 +119,10 @@ html, body {
   color: white;
   font-size: 12px;
   letter-spacing: 2px;
-  margin: 22px 10px 0 10px;
+  margin: 22px 10px 0;
   font-weight: 800;
   display: block;
-  padding: 20px 0 32px 0;
+  padding: 20px 0 32px ;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: all 0.8s ease;
 }
@@ -677,7 +677,7 @@ a:hover {
   letter-spacing: .6px;
 }
 
-#contactInfo .contact-detail .info .phone {}
+/* #contactInfo .contact-detail .info .phone {} */
 
 #contactInfo .contact-detail .info .phone .heading {
   font-size: 21px;
@@ -691,7 +691,7 @@ a:hover {
   letter-spacing: .6px;
 }
 
-#contactInfo .contact-detail .contact-form {}
+/* #contactInfo .contact-detail .contact-form {} */
 
 #contactInfo .contact-detail .contact-form label {
   font-weight: 600
