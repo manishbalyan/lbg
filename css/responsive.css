@@ -1,321 +1,410 @@
-/*============================================================================================
+    /*============================================================================================
 ==============================================================================================
 RESPONSIVE STYLE
 ==============================================================================================
 =============================================================================================*/
-
-
-/* ########################################################################################### 
+    /* ########################################################################################### 
 xs layout 
 ##############################################################################################*/
-
-@media (max-width: 768px) and (orientation: portrait) {
-    #main-container {
-        background-image: url("../images/bg-mobile.jpg");
+    
+    @media (max-width: 768px) and (orientation: portrait) {
+        #main-container {
+            background-image: url("../images/bg-mobile.jpg");
+        }
+        #main-container .logo-container .logo {
+            max-width: 250px;
+        }
+        #main-container .hpd-container {
+            margin-top: 26%;
+        }
+        #main-container .hpd-container .hpd-img {
+            max-width: 130px;
+        }
+        #main-container .cds-container {
+            margin-top: 26%;
+        }
+        #main-container .cds-container .cds-img {
+            max-width: 130px;
+        }
+        #main-container .footer-container .footer-img {
+            max-width: 250px;
+        }
+        #main-container .footer-container {
+            margin-top: 112%;
+            top: 0px;
+        }
+        .mainnav {
+            width: 100%;
+            background: black;
+            z-index: 10000;
+            height: 100%;
+            position: fixed;
+            top: 88px;
+            left: 0;
+        }
+        .mainnav li {
+            width: 100%;
+        }
+        .mainnav li a {
+            text-align: center;
+            margin: 4px 0px 0 0px;
+            padding: 10px 0 10px 0;
+        }
+        .topText {
+            padding-right: 0px;
+            margin-top: 100px;
+        }
+        .topText h1 {
+            font-size: 15px;
+        }
+        .topText p {
+            font-size: 13px;
+            padding-right: 46px;
+        }
+        #principles .principles-heading {
+            font-size: 16px;
+        }
+        #footer2 .footer2-para {
+            font-size: 12px;
+            text-align: center;
+        }
+        #leapTop {
+            height: 90vh;
+        }
+        #leapTop .leapTopHeading h1 {
+            font-size: 20px;
+            margin-top: 50%;
+        }
+        #overview .overview-subHeading {
+            font-size: 22px;
+            margin-top: 40px;
+            letter-spacing: .8px;
+        }
+        #main-elements .elements-content {
+            margin: 10px 0px 0px 15px;
+        }
+        #main-elements .elements-content-heading {
+            font-size: 30px;
+        }
+        #main-elements .elements-content-list {
+            padding: 20px;
+        }
+        #main-elements .elements-content-list li {
+            font-size: 18px;
+        }
+        #main-elements .elements-content-subHeading {
+            color: #aba59a;
+            font-size: 18px;
+            letter-spacing: .6px;
+            line-height: 26px;
+        }
+        #main-elements .elements-content-dowloadHeading {
+            font-size: 18px;
+        }
+        #hpdTop {
+            height: 90vh;
+        }
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            margin-top: -6px;
+            width: 100%;
+            position: inherit;
+            left: 0% !important
+        }
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 5px 0px 5px;
+            border-top-color: #000;
+            margin-top: 5px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px #000;
+        }
+        .navigation {
+            background-color: #101010;
+            opacity: .7;
+            z-index: 10000;
+            position: relative;
+        }
+        #contactInfo .mainHeading {
+            font-size: 24px;
+            text-align: center;
+            line-height: 33px;
+        }
+        .paddingLeft {
+            padding-left: 0 !important;
+        }
+        #sectors1 .sectors-list .sector4 {
+            margin: 20px 3px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector4 {
+            margin-left: -29px;
+        }
+        #sectors1 .sectors-list .sector3 {
+            margin: 20px 0px 20px 138px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector5 {
+            margin: 20px 0px 20px 137px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector6 {
+            margin-left: -27px;
+        }
+        #sectors1 .sectors-list .sector6 {
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector7 {
+            margin: 20px 0px 20px 138px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector8 {
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector8 {
+            margin-left: -27px;
+        }
+        #sectors1 .sectors-list .sector9 {
+            margin: 20px 0px 20px 137px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector10 {
+            margin: 20px 0px 20px 44px;
+            border-bottom: 2px solid #a29898;
+            width: 68%;
+        }
     }
-    #main-container .logo-container .logo {
-        max-width: 250px;
+    
+    @media (max-width: 768px) and (orientation: landscape) {
+        #main-container .logo-container {
+            margin-top: 12%;
+            margin-left: 44%;
+        }
+        #main-container .logo-container .logo {
+            max-width: 250px;
+        }
+        #main-container .hpd-container .hpd-img {
+            max-width: 130px;
+        }
+        #main-container .cds-container .cds-img {
+            max-width: 130px;
+        }
     }
-    #main-container .hpd-container {
-        margin-top: 26%;
-    }
-    #main-container .hpd-container .hpd-img {
-        max-width: 130px;
-    }
-    #main-container .cds-container {
-        margin-top: 26%;
-    }
-    #main-container .cds-container .cds-img {
-        max-width: 130px;
-    }
-    #main-container .footer-container .footer-img {
-        max-width: 250px;
-    }
-    #main-container .footer-container {
-        margin-top: 112%;
-        top: 0px;
-    }
-    .mainnav {
-        width: 100%;
-        background: rgba(0, 0, 0, 0.54);
-        z-index: 10000;
-        height: 100%;
-        position: fixed;
-        top: 88px;
-        left: 0;
-    }
-    .mainnav li {
-        width: 100%;
-    }
-    .mainnav li a {
-        text-align: center;
-        margin: 4px 0px 0 0px;
-        padding: 10px 0 10px 0;
-    }
-    .topText {
-        padding-right: 0px;
-        margin-top: 100px;
-    }
-    .topText h1 {
-        font-size: 15px;
-    }
-    .topText p {
-        font-size: 13px;
-        padding-right: 46px;
-    }
-    #principles .principles-heading {
-        font-size: 16px;
-    }
-    #footer2 .footer2-para {
-        font-size: 12px;
-        text-align: center;
-    }
-    #leapTop {
-        height: 90vh;
-    }
-    #leapTop .leapTopHeading h1 {
-        font-size: 20px;
-        margin-top: 50%;
-    }
-    #overview .overview-subHeading {
-        font-size: 22px;
-        margin-top: 40px;
-        letter-spacing: .8px;
-    }
-    #main-elements .elements-content {
-        margin: 10px 0px 0px 15px;
-    }
-    #main-elements .elements-content-heading {
-        font-size: 30px;
-    }
-    #main-elements .elements-content-list {
-        padding: 20px;
-    }
-    #main-elements .elements-content-list li {
-        font-size: 18px;
-    }
-    #main-elements .elements-content-subHeading {
-        color: #aba59a;
-        font-size: 18px;
-        letter-spacing: .6px;
-        line-height: 26px;
-    }
-    #main-elements .elements-content-dowloadHeading {
-        font-size: 18px;
-    }
-    #hpdTop {
-        height: 90vh;
-    }
-    .dropdown-submenu {
-        position: relative;
-    }
-    .dropdown-submenu .dropdown-menu {
-        top: 0;
-        left: 100%;
-        margin-top: -6px;
-    }
-    .dropdown-submenu>a:after {
-        display: block;
-        content: " ";
-        float: right;
-        width: 0;
-        height: 0;
-        border-color: transparent;
-        border-style: solid;
-        border-width: 5px 0 5px 5px;
-        border-left-color: #000;
-        margin-top: 5px;
-    }
-    .navigation {
-        background-color: #101010;
-        opacity: .7;
-        z-index: 10000;
-        position: relative;
-    }
-    #contactInfo .mainHeading {
-        font-size: 24px;
-        text-align: center;
-        line-height: 33px;
-    }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-    #main-container .logo-container {
-        margin-top: 12%;
-        margin-left: 44%;
-    }
-    #main-container .logo-container .logo {
-        max-width: 250px;
-    }
-    #main-container .hpd-container .hpd-img {
-        max-width: 130px;
-    }
-    #main-container .cds-container .cds-img {
-        max-width: 130px;
-    }
-}
-
-
-/* ########################################################################################### 
+    /* ########################################################################################### 
 sm layout 
 ##############################################################################################*/
-
-@media (min-width: 769px) and (max-width: 992px) and (orientation: portrait) {
-    #main-container {
-        background-image: url("../images/bg-mobile.jpg");
+    
+    @media (min-width: 769px) and (max-width: 992px) and (orientation: portrait) {
+        #main-container {
+            background-image: url("../images/bg-mobile.jpg");
+        }
+        #main-container .logo-container .logo {
+            max-width: 250px;
+        }
+        #main-container .hpd-container {
+            margin-top: 26%;
+        }
+        #main-container .hpd-container .hpd-img {
+            max-width: 130px;
+        }
+        #main-container .cds-container {
+            margin-top: 26%;
+        }
+        #main-container .cds-container .cds-img {
+            max-width: 130px;
+        }
+        #main-container .footer-container .footer-img {
+            max-width: 250px;
+        }
+        #main-container .footer-container {
+            margin-top: 112%;
+        }
+        .mainnav {
+            width: 100%;
+            background: black;
+            z-index: 10000;
+            height: 100%;
+            position: fixed;
+            top: 88px;
+            left: 0;
+        }
+        .mainnav li {
+            width: 100%;
+        }
+        .mainnav li a {
+            text-align: center;
+            margin: 4px 0px 0 0px;
+            padding: 10px 0 10px 0;
+        }
+        .topText {
+            padding-right: 60px;
+            margin-top: 100px;
+        }
+        .topText h1 {
+            font-size: 15px;
+        }
+        .topText p {
+            font-size: 13px;
+            padding-right: 46px;
+        }
+        #principles .principles-heading {
+            font-size: 16px;
+        }
+        #footer2 .footer2-para {
+            font-size: 12px;
+            text-align: center;
+        }
+        #leapTop {
+            height: 90vh;
+        }
+        #leapTop .leapTopHeading h1 {
+            font-size: 20px;
+            margin-top: 50%;
+        }
+        #overview .overview-subHeading {
+            font-size: 22px;
+            margin-top: 40px;
+            letter-spacing: .8px;
+        }
+        #main-elements .elements-content {
+            margin: 10px 0px 0px 15px;
+        }
+        #main-elements .elements-content-heading {
+            font-size: 30px;
+        }
+        #main-elements .elements-content-list {
+            padding: 20px;
+        }
+        #main-elements .elements-content-list li {
+            font-size: 18px;
+        }
+        #main-elements .elements-content-subHeading {
+            color: #aba59a;
+            font-size: 18px;
+            letter-spacing: .6px;
+            line-height: 26px;
+        }
+        #main-elements .elements-content-dowloadHeading {
+            font-size: 18px;
+        }
+        #hpdTop {
+            height: 90vh;
+        }
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            margin-top: -6px;
+            width: 100%;
+            position: inherit;
+            left: 0% !important
+        }
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 5px 0px 5px;
+            border-top-color: #000;
+            margin-top: 5px;
+        }
+        .navigation {
+            background-color: #101010;
+            opacity: .7;
+            z-index: 10000;
+            position: relative;
+        }
+        #contactInfo .mainHeading {
+            font-size: 24px;
+            text-align: center;
+            line-height: 33px;
+        }
+        .paddingLeft {
+            padding-left: 0 !important;
+        }
+        #sectors1 .sectors-list .sector4 {
+            margin: 20px 3px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector4 {
+            margin-left: -29px;
+        }
+        #sectors1 .sectors-list .sector3 {
+            margin: 20px 0px 20px 138px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector5 {
+            margin: 20px 0px 20px 137px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector6 {
+            margin-left: -27px;
+        }
+        #sectors1 .sectors-list .sector6 {
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector7 {
+            margin: 20px 0px 20px 138px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector8 {
+            margin: 20px 0px 20px 0px;
+            border-bottom: 1px solid #a29898;
+        }
+        #sectors1 .sectors-list #sector8 {
+            margin-left: -27px;
+        }
+        #sectors1 .sectors-list .sector9 {
+            margin: 20px 0px 20px 137px;
+            border-bottom: 2px solid #a29898;
+        }
+        #sectors1 .sectors-list .sector10 {
+            margin: 20px 0px 20px 44px;
+            border-bottom: 2px solid #a29898;
+            width: 68%;
+        }
     }
-    #main-container .logo-container .logo {
-        max-width: 250px;
+    
+    @media (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
+        #main-container .logo-container {
+            margin-top: 12%;
+            margin-left: 44%;
+        }
+        #main-container .logo-container .logo {
+            max-width: 250px;
+            top: 0px;
+        }
+        #main-container .hpd-container .hpd-img {
+            max-width: 130px;
+        }
+        #main-container .cds-container .cds-img {
+            max-width: 130px;
+        }
     }
-    #main-container .hpd-container {
-        margin-top: 26%;
-    }
-    #main-container .hpd-container .hpd-img {
-        max-width: 130px;
-    }
-    #main-container .cds-container {
-        margin-top: 26%;
-    }
-    #main-container .cds-container .cds-img {
-        max-width: 130px;
-    }
-    #main-container .footer-container .footer-img {
-        max-width: 250px;
-    }
-    #main-container .footer-container {
-        margin-top: 112%;
-    }
-    .mainnav {
-        width: 100%;
-        background: rgba(0, 0, 0, 0.54);
-        z-index: 10000;
-        height: 100%;
-        position: fixed;
-        top: 88px;
-        left: 0;
-    }
-    .mainnav li {
-        width: 100%;
-    }
-    .mainnav li a {
-        text-align: center;
-        margin: 4px 0px 0 0px;
-        padding: 10px 0 10px 0;
-    }
-    .topText {
-        padding-right: 60px;
-        margin-top: 100px;
-    }
-    .topText h1 {
-        font-size: 15px;
-    }
-    .topText p {
-        font-size: 13px;
-        padding-right: 46px;
-    }
-    #principles .principles-heading {
-        font-size: 16px;
-    }
-    #footer2 .footer2-para {
-        font-size: 12px;
-        text-align: center;
-    }
-    #leapTop {
-        height: 90vh;
-    }
-    #leapTop .leapTopHeading h1 {
-        font-size: 20px;
-        margin-top: 50%;
-    }
-    #overview .overview-subHeading {
-        font-size: 22px;
-        margin-top: 40px;
-        letter-spacing: .8px;
-    }
-    #main-elements .elements-content {
-        margin: 10px 0px 0px 15px;
-    }
-    #main-elements .elements-content-heading {
-        font-size: 30px;
-    }
-    #main-elements .elements-content-list {
-        padding: 20px;
-    }
-    #main-elements .elements-content-list li {
-        font-size: 18px;
-    }
-    #main-elements .elements-content-subHeading {
-        color: #aba59a;
-        font-size: 18px;
-        letter-spacing: .6px;
-        line-height: 26px;
-    }
-    #main-elements .elements-content-dowloadHeading {
-        font-size: 18px;
-    }
-    #hpdTop {
-        height: 90vh;
-    }
-    .dropdown-submenu {
-        position: relative;
-    }
-    .dropdown-submenu .dropdown-menu {
-        top: 0;
-        left: 100%;
-        margin-top: -6px;
-    }
-    .dropdown-submenu>a:after {
-        display: block;
-        content: " ";
-        float: right;
-        width: 0;
-        height: 0;
-        border-color: transparent;
-        border-style: solid;
-        border-width: 5px 0 5px 5px;
-        border-left-color: #000;
-        margin-top: 5px;
-    }
-    .navigation {
-        background-color: #101010;
-        opacity: .7;
-        z-index: 10000;
-        position: relative;
-    }
-    #contactInfo .mainHeading {
-        font-size: 24px;
-        text-align: center;
-        line-height: 33px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px) and (orientation: landscape) {
-    #main-container .logo-container {
-        margin-top: 12%;
-        margin-left: 44%;
-    }
-    #main-container .logo-container .logo {
-        max-width: 250px;
-        top: 0px;
-    }
-    #main-container .hpd-container .hpd-img {
-        max-width: 130px;
-    }
-    #main-container .cds-container .cds-img {
-        max-width: 130px;
-    }
-}
-
-
-/* ########################################################################################### 
+    /* ########################################################################################### 
 md layout 
 ##############################################################################################*/
-
-@media (min-width: 993px) and (max-width: 1200px) {}
-
-
-/* ########################################################################################### 
+    
+    @media (min-width: 993px) and (max-width: 1200px) {}
+    /* ########################################################################################### 
 lg layout
 ##############################################################################################*/
-
-@media (min-width: 1201px) {}
+    
+    @media (min-width: 1201px) {}
