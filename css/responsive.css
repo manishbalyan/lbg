@@ -76,15 +76,16 @@ xs layout
             margin-top: 50%;
         }
         #overview .overview-subHeading {
-            font-size: 22px;
+            font-size: 18px;
             margin-top: 40px;
             letter-spacing: .8px;
+            margin-bottom: 25px;
         }
         #main-elements .elements-content {
             margin: 10px 0px 0px 15px;
         }
         #main-elements .elements-content-heading {
-            font-size: 30px;
+            font-size: 24px;
         }
         #main-elements .elements-content-list {
             padding: 20px;
@@ -94,7 +95,7 @@ xs layout
         }
         #main-elements .elements-content-subHeading {
             color: #aba59a;
-            font-size: 18px;
+            font-size: 15px;
             letter-spacing: .6px;
             line-height: 26px;
         }
@@ -185,7 +186,79 @@ xs layout
             border-bottom: 2px solid #a29898;
             width: 68%;
         }
+        #tlpTop .tlpTopHeading h1 {
+            font-size: 30px;
+            margin-top: 50%; 
+        }
+        #tlpTop {
+            height: 90vh;
+        }
+        #tlpOverview .tlpOverview-para {
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+        .mraginTop30{
+            margin-top: 30px;
+        }
+        #tlpOverview .tlpOverview-mainTheme .mainTheme-list {
+            list-style: none;
+            padding: 25px 0px 0px 10px;
+            line-height: 20px;
+        }
+        #tlpFeatures .features-content {
+            margin: 10px 0px 0px 10px;
+        }
+        #tlpFeatures .features-content .content-heading {
+            font-size: 24px;
+        }
+        #tlpFeatures .features-content .content-subHeading {
+            font-size: 16px;
+            line-height: 25px;
+            color: #aba59a;
+            letter-spacing: .6px;
+            margin: 10px 0px;
+        }
+        #tlpFeatures .features-content .content-list li {
+            font-size: 16px;
+            color: #aba59a;
+            margin-bottom: 8px;
+            letter-spacing: .6px;
+            list-style: none;
+        }
+        #ldi-overview .content {
+            margin-top: 0px;
+        }
+        #ldi-overview .ldi-list .ldi-list-para{
+            margin: 0px;
+            font-size: 15px;
+        }
+        #ldi-overview{
+            margin-bottom:0px;
+            min-height: 1000px;
+        }
+        #ldiTop .ldiTopHeading h1{
+            font-size: 20px;
+            margin-top: 50%
+        }
+        #ilpTop .ilpTopHeading h1{
+            font-size: 20px;
+            margin-top: 50%
+        }
+        #ilpTop{
+            height: 100vh;
+        }
+        #ilp-overview .workshop {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        #ilp-overview .ilp {
+            margin-top: 60px;
+        }
+        #ilp-overview .ilp-list .ilp-list-para{
+            margin: 0px;
+        }
     }
+
     
     @media (max-width: 768px) and (orientation: landscape) {
         #main-container .logo-container {
@@ -201,6 +274,7 @@ xs layout
         #main-container .cds-container .cds-img {
             max-width: 130px;
         }
+        
     }
     /* ########################################################################################### 
 sm layout 
@@ -274,15 +348,16 @@ sm layout
             margin-top: 50%;
         }
         #overview .overview-subHeading {
-            font-size: 22px;
+            font-size: 18px;
             margin-top: 40px;
             letter-spacing: .8px;
+            margin-bottom: 25px;
         }
         #main-elements .elements-content {
             margin: 10px 0px 0px 15px;
         }
         #main-elements .elements-content-heading {
-            font-size: 30px;
+            font-size: 24px;
         }
         #main-elements .elements-content-list {
             padding: 20px;
@@ -292,7 +367,7 @@ sm layout
         }
         #main-elements .elements-content-subHeading {
             color: #aba59a;
-            font-size: 18px;
+            font-size: 15px;
             letter-spacing: .6px;
             line-height: 26px;
         }
@@ -379,6 +454,78 @@ sm layout
             margin: 20px 0px 20px 44px;
             border-bottom: 2px solid #a29898;
             width: 68%;
+        }
+        #tlpTop .tlpTopHeading h1 {
+            font-size: 30px;
+            margin-top: 50%; 
+        }
+        #tlpTop {
+            height: 90vh;
+        }
+
+        #tlpOverview .tlpOverview-para {
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+        .mraginTop30{
+            margin-top: 30px;
+        }
+        #tlpOverview .tlpOverview-mainTheme .mainTheme-list {
+            list-style: none;
+            padding: 25px 0px 0px 10px;
+            line-height: 20px;
+        }
+        #tlpFeatures .features-content {
+            margin: 10px 0px 0px 10px;
+        }
+        #tlpFeatures .features-content .content-heading {
+            font-size: 24px;
+        }
+        #tlpFeatures .features-content .content-subHeading {
+            font-size: 16px;
+            line-height: 25px;
+            color: #aba59a;
+            letter-spacing: .6px;
+            margin: 10px 0px;
+        }
+        #tlpFeatures .features-content .content-list li {
+            font-size: 16px;
+            color: #aba59a;
+            margin-bottom: 8px;
+            letter-spacing: .6px;
+            list-style: none;
+        }
+        #ldi-overview .content {
+            margin-top: 0px;
+        }
+        #ldi-overview .ldi-list .ldi-list-para{
+            margin: 0px;
+            font-size: 15px;
+        }
+        #ldi-overview{
+            margin-bottom:0px;
+            min-height: 1000px;
+        }
+        #ldiTop .ldiTopHeading h1{
+            font-size: 20px;
+            margin-top: 50%
+        }
+        #ilpTop .ilpTopHeading h1{
+            font-size: 20px;
+            margin-top: 50%
+        }
+        #ilpTop{
+            height: 100vh;
+        }
+        #ilp-overview .workshop {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        #ilp-overview .ilp {
+            margin-top: 60px;
+        }
+        #ilp-overview .ilp-list .ilp-list-para{
+            margin: 0px;
         }
     }
     
